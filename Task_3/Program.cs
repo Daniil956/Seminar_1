@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Clear();
+Console.WriteLine("Enter a number: ");
+int a = Convert.ToInt32(Console.ReadLine());
+ if (a == 1) Console.WriteLine("Monday");
+ if (a == 2) Console.WriteLine("Tuesday ");
+ if (a == 3) Console.WriteLine("Wednesday ");
+ if (a == 4) Console.WriteLine("Thursday ");
+ if (a == 5) Console.WriteLine("Friday");
+ if (a == 6) Console.WriteLine("Friday");
+ if (a == 7) Console.WriteLine("FridaySunday");
+ else Console.WriteLine("Error");
